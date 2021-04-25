@@ -37,3 +37,7 @@ export const LogDecorator = (str: string): string[] => {
   }
   return [decoratedStr, ...props];
 };
+
+LogDecorator.log = (str: string) => {
+  console.log(...LogDecorator(str));
+};
