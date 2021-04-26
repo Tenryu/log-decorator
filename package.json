@@ -1,6 +1,9 @@
 {
   "name": "@tenryu/log-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Decorate console.log()",
   "main": "dist/index.js",
   "files": [
@@ -22,5 +25,6 @@
   "homepage": "https://github.com/Tenryu/log-decorator#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
-  }
+  },
+  "dependencies": {}
 }
