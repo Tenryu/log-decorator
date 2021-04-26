@@ -1,9 +1,13 @@
 {
   "name": "@tenryu/log-decorator",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Decorate console.log()",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Tenryu/log-decorator/issues"
   },
-  "homepage": "https://github.com/Tenryu/log-decorator#readme"
+  "homepage": "https://github.com/Tenryu/log-decorator#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
