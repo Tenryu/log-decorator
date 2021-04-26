@@ -41,3 +41,15 @@ export const LogDecorator = (str: string): string[] => {
 LogDecorator.log = (str: string) => {
   console.log(...LogDecorator(str));
 };
+
+LogDecorator.group = (str: string) => {
+  console.group(...LogDecorator(str));
+};
+
+LogDecorator.groupEnd = () => {
+  console.groupEnd();
+};
+
+LogDecorator.groupCollapsed = (str: string) => {
+  console.groupCollapsed(...LogDecorator(str));
+};
