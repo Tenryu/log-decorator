@@ -1,10 +1,10 @@
 # LogDecorator
 
-ja / [en]('./README.en.md')
+[ja]('./README.md') / en
 
-ブラウザの `console.log()` を簡単にデコレーション
+Easy decoration of your browser's `console.log()`.
 
-## 使い方
+## Usage
 
 ```TypeScript
 import { LogDecorator } from '@tenryu/log-decorator';
@@ -20,7 +20,7 @@ LogDecorator.groupEnd();
 console.log(...LogDecorator('text <red>red text</red> <green>green text</green>'));
 ```
 
-## 使用可能なタグ
+## Tags
 
 | tag         | color                                            |
 | ----------- | ------------------------------------------------ |
