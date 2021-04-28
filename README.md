@@ -18,7 +18,7 @@ LogDecorator.groupEnd();
 console.log(...LogDecorator('text <red>red text</red> <green>green text</green>'));
 ```
 
-使用可能なタグ
+## 使用可能なタグ
 
 | tag         | color                                            |
 | ----------- | ------------------------------------------------ |
