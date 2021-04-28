@@ -1,8 +1,8 @@
-# log-decorator
-
-## 使い方
+# LogDecorator
 
 ブラウザの `console.log()` を簡単にデコレーション
+
+## 使い方
 
 ```TypeScript
 import { LogDecorator } from '@tenryu/log-decorator';
