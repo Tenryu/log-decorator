@@ -2,11 +2,23 @@
 
 ## 使い方
 
+ブラウザの `console.log()` を簡単にデコレーション
+
 ```TypeScript
-LogDecorator.log('text <red>red text</red> text');
+import { LogDecorator } from '@tenryu/log-decorator';
+
+LogDecorator.log('text <red>red text</red> <green>green text</green>');
+
+LogDecorator.group('text <red>red text</red> <green>green text</green>');
+LogDecorator.groupEnd();
+
+LogDecorator.groupCollapsed('text <red>red text</red> <green>green text</green>');
+LogDecorator.groupEnd();
+
+console.log(...LogDecorator('text <red>red text</red> <green>green text</green>'));
 ```
 
-使用可能なタグ
+## 使用可能なタグ
 
 | tag         | color                                            |
 | ----------- | ------------------------------------------------ |
