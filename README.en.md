@@ -1,6 +1,6 @@
 # LogDecorator
 
-[ja]('./README.md') / en
+[ja](./README.md) / en
 
 Easy decoration of your browser's `console.log()`.
 
