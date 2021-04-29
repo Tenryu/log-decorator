@@ -1,6 +1,6 @@
 # LogDecorator
 
-ja / [en]('./README.en.md')
+ja / [en](./README.en.md)
 
 ブラウザの `console.log()` を簡単にデコレーション
 
